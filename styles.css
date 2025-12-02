@@ -1,0 +1,88 @@
+:root {
+  font-family: system-ui, Arial, sans-serif;
+  --gray: #555;
+  --light: #f7f7f7;
+  --border: #e5e5e5;
+}
+
+body {
+  margin: 0;
+  background: #fff;
+  color: #111;
+  line-height: 1.6;
+}
+
+/* HERO SECTION */
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background: var(--light);
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid white;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: var(--gray);
+}
+
+.cta {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 8px 20px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  text-decoration: none;
+  color: #111;
+}
+
+/* LAYOUT */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+h2 {
+  margin-top: 40px;
+}
+
+/* PROJECTS GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  padding: 20px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: #fff;
+}
+
+.card a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.resume-btn {
+  padding: 10px 20px;
+  background: #111;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  color: var(--gray);
+  background: var(--light);
+}
